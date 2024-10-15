@@ -1,0 +1,136 @@
+
+.hero{
+    background: rgba(103, 101, 101, 0.229);
+    background: #d1dbe4;
+    justify-items: center;
+    height: 100vh;
+    width:100%;
+}
+
+.intro{
+display: grid;
+justify-items: center;
+padding-top: 5rem;
+}
+
+.intro p {
+    padding-left:5%;
+    justify-self: center;
+}
+
+.ibukun{
+    border-radius: 100%;
+    height: 300px;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    
+}
+.card-title{
+    padding: 5%;
+
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+}
+.iam {
+padding-top: 30px;
+}
+
+.contact {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contact-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 80px rgba(226, 4, 4, 0.1);
+    width: 100vh;
+    text-align: center;
+}
+
+h1, h2 {
+    margin: 0 0 20px;
+    color: #333;
+}
+
+.contact-details p {
+    margin: 10px 0;
+    font-size: 19px;
+    color: #555;
+}
+
+.contact-details a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.contact-details a:hover {
+    text-decoration: underline;
+}
+
+.social-media a {
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 10px 15px;
+    color: #fff;
+    background-color: #007BFF;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.social-media a:hover {
+    background-color: #141415;
+}
+
+
+
+@media (min-width: 319px) and (max-width: 740px) {
+    .hero{
+        background: #f4f4f4;
+        height: 100vh;
+    }
+    .intro{
+        display:grid ;
+        justify-items: center;
+        padding-top: 5rem;
+        }
+    .container{
+        display: grid;
+        gap: 20px;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        
+    }    
+    #cardpmp {
+        grid-column: span 4;
+        justify-self: center;
+    }
+    #cardfront {
+        grid-column: span 4;
+        justify-self: center;
+    }
+    #cardback {
+        grid-column: span 4;
+        justify-self: center;
+    }
+    
+}
